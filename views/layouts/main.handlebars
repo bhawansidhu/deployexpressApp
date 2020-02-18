@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Airbnb- Creation of Airbnb website by using Node Js and express handlebars.">
+    <meta name="author" content="Bhawanpret Kaur Sidhu">
+    <script src="https://kit.fontawesome.com/70195ad3d9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <header>
+        <div class="main-heading">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/image/logo.png" alt="Airbnb Logo"
+                        style="width: 100px;  height: 90px;  background-position: center;  background-repeat: no-repeat;">
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Login">Log In</a></li>
+                    <li><a href="/contactus">SignUp</a></li>
+                    <li><a href="/products">Explore</a></li>
+                    <li><a href="#About us">About Us</a></li>
+                    <li><a href="#help"> Help</a></li>
+                    <li><a href="#Feedback">Feedback</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+
+    <footer>
+    <div class="footer-area">
+        <div class="explore">
+            <ul>
+                <li><a href="#trip boards">Trust and Safety</a></li>
+                <li><a href="#About us">Book with cconfidence</a></li>
+                <li><a href="#login">Community</a></li>
+                <li><a href="#help"> Discovery Hub</a></li>
+                <li><a href="#Feedback">Vacation rental Guides</a></li>
+            </ul>
+        </div>
+
+        <div class="policy">
+            <ul>
+                <li><a href="#trip boards">Terms and Services</a></li>
+                <li><a href="#About us">Privacy Policies</a></li>
+            </ul>
+        </div>
+
+
+        <div class="social">
+
+            <ul>
+                <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#facebook"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#facebook"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#facebook"><i class="fab fa-youtube"></i> </a></li>
+            </ul>
+        </div>
+
+
+        <div class="copyright">
+            <p> &copy; 2019 Airbnb, all right reserved</p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
